@@ -11,7 +11,8 @@ tags:
   - Spigot
   - Bungeecord
 ---
-* [Introduction](#intro)
+
+Sometimes installing a minecraft server can be laborious, install java 8 and its dependencies too, that's why in this tutorial I will explain you how to install a Minecraft Spigot and Bungeecord Server Easily without any knowledge. To do this we will use a bash script which is available in my own Github Page.
 * [Requirements](#requirements)
 * [Features](#features)
 * [Supported versions](#supported-versions)
@@ -21,9 +22,6 @@ tags:
 * [Bugs](#bugs)
 * [License](#license)
 
-# Intro
-
-Sometimes installing a minecraft server can be laborious, install java 8 and its dependencies too, that's why in this tutorial I will explain you how to install a Minecraft Spigot and Bungeecord Server Easily without any knowledge. To do this we will use a bash script which is available in my own Github Page.
 
 # Requirements
 
