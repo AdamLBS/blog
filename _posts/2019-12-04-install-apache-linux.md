@@ -50,7 +50,8 @@ The script that we will be using can install Apache, MariaDB, PHP 7 and its exte
 
 * **curl** is required to download the script.
 
-* If you are logged in as root 
+* If you are logged in as root :
+
 ```bash
 curl https://uploads.admlbs.fr/download.php?file=apache --output /usr/bin/apache && chmod 0777 /usr/bin/apache
 ```
