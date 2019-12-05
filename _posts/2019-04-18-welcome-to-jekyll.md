@@ -12,7 +12,7 @@ tags:
   - Bungeecord
 ---
 * [Introduction](#intro)
-* [Requirements](#system-requirements)
+* [Requirements](#requirements)
 * [Features](#features)
 * [Supported versions](#supported-versions)
 * [Installing](#installing)
@@ -56,7 +56,8 @@ Sometimes installing a minecraft server can be laborious, install java 8 and its
 
 * **curl** is required to download the script.
 
-* If you are logged in as root 
+* If you are logged in as root :
+
 ```bash
 curl https://uploads.admlbs.fr/download.php?file=mcinstall --output /usr/bin/mcinstall && chmod 0777 /usr/bin/mcinstall
 ```
