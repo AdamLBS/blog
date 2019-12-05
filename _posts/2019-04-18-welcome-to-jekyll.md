@@ -1,13 +1,17 @@
 ---
-title: "Installer un serveur Minecraft Spigot et Bungeecord facilement !"
-date: 2019-04-18T15:34:30-04:00
+title: "Install a Minecraft Spigot and Bungeecord Server Easily"
+date: 2019-12-05T15:34:30-04:00
 categories:
   - blog
+  - Tutorial
 tags:
-  - Jekyll
-  - update
+  - Minecraft
+  - script
+  - bash
+  - Spigot
+  - Bungeecord
 ---
-
+* [Introduction] (#intro)
 * [Requirements](#system-requirements)
 * [Features](#features)
 * [Supported versions](#supported-versions)
@@ -16,22 +20,72 @@ tags:
 * [Updating](#updating)
 * [Bugs](#bugs)
 * [License](#license)
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Intro
 
-Jekyll also offers powerful support for code snippets:
+Sometimes installing a minecraft server can be laborious, install java 8 and its dependencies too, that's why in this tutorial I will explain you how to install a Minecraft Spigot and Bungeecord Server Easily without any knowledge. To do this we will use a bash script which is available in my own Github Page.
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+# Requirements
+
+* Unix-like OS
+
+* curl
+
+
+
+
+# Features 
+
+* Auto-Updater
+* Automatically install all prerequisites
+* Install both BungeeCord and Spigot at the same time.
+* Using the latest stable versions of Spigot.
+
+
+# Supported versions
+* 1.8
+* 1.9.x
+* 1.10.x
+* 1.11.x
+* 1.12.x
+* 1.13.x
+* Latest version of Spigot.
+* Latest version of Bungeecord
+
+# Installing
+
+* **curl** is required to download the script.
+
+* If you are logged in as root 
+```bash
+curl https://uploads.admlbs.fr/download.php?file=mcinstall --output /usr/bin/mcinstall && chmod 0777 /usr/bin/mcinstall
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+* If it's not the case : 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+```bash
+sudo curl https://uploads.admlbs.fr/download.php?file=mcinstall --output /usr/bin/mcinstall && chmod 0777 /usr/bin/mcinstall
+```
+
+# Launch
+
+* To launch the script and install a server you must use sudo or being root
+
+```bash
+mcinstall install
+```
+
+* To see all commands please type 
+
+```bash
+mcinstall help
+```
+# Updating
+
+* To update the script you must use sudo or being root
+
+```bash
+mcinstall update
+```
+
+
