@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Adam Elaoumari"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "https://pbs.twimg.com/profile_images/1190655107228147712/ynI_Yqxq_400x400.jpg"
   bio    : "High school student who codes websites & scripts for professionals and individuals.."
   links:
     - label: "Website"
