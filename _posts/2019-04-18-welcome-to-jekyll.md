@@ -11,7 +11,7 @@ tags:
   - Spigot
   - Bungeecord
 ---
-* [Introduction] (#intro)
+* [Introduction](#intro)
 * [Requirements](#system-requirements)
 * [Features](#features)
 * [Supported versions](#supported-versions)
