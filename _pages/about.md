@@ -1,4 +1,6 @@
 ---
+redirect_to:
+  - https://admlbs.fr
 permalink: /about/
 title: "About"
 ---

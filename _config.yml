@@ -22,7 +22,6 @@ twitter_username: AdamLBSDev
 github_username: AdamLBS
 minimal_mistakes_skin: default
 search: true
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -55,6 +54,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-paginate 
+  - jekyll-redirect-from
 
 author:
   name   : "Adam Elaoumari"
